@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .btn-ghost:link,
+    .btn-ghost:visited {
+        height: 8vw;
+        padding-bottom: 5vh;
+     }
+    
+    
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    width: 24vw;
+}
+    
+#alexa-photo {
+        margin-top:7vh;
+    }
+    
+#ellen-photo {
+        margin-top:10vh;
+        margin-bottom:2vh;
+    }
+    
+    .customer-name {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+    
+    .sticky .main-nav li a:link, 
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    
+    .sticky .mobile-nav-icon i { color: #555; }
+    
+    .sticky .mobile-nav-icon i { margin-top: 10px; }
+    
+    
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    
+}
